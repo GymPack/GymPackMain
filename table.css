@@ -1,0 +1,22 @@
+@charset "UTF-8";
+table {
+   background-color: #e2e2e2;
+   border-collapse: collapse;
+   margin-top: 35px;
+}
+th, td {
+    padding: 20px;
+    box-sizing: border-box;
+}
+td {
+    border-left: 0;
+    border-right: 0;
+    white-space: nowrap;
+    border: solid 1px #d8d8d8;
+}
+th {
+    background-color: red;
+    border-bottom: solid 2px #d8d8d8;
+    position: sticky;
+}
+ 
